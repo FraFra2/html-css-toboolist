@@ -83,6 +83,7 @@ main{
 .task{
     display: block;
     padding: 10px;
+    font-size: 14px;
 }
 
 h2{
@@ -108,6 +109,7 @@ h2{
 }
 
 .notdone{
+    font-size: 12px;
     color: red;
     border: 1px solid red;
 
@@ -122,3 +124,35 @@ h2{
 
 }
 
+.tasktip{
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+}
+
+.editorial{
+    background-color: #45ABEA;
+}
+
+.q1{
+    background-color: #9C72E4;
+
+}
+
+.recruiting{
+    background-color: #64C0A9;
+
+}
+
+.mobile{
+    background-color: #F29E33;
+
+}
+
+.website{
+    background-color: #D863A1;
+}
+
+.sales{
+    background-color: #B0C926;
+}
