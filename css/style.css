@@ -81,7 +81,8 @@ main{
 }
 
 .task{
-
+    display: block;
+    padding: 10px;
 }
 
 h2{
@@ -111,3 +112,13 @@ h2{
     border: 1px solid red;
 
 }
+
+
+/* TODO: Task name, tooltip style */
+
+.taskname{
+    font-size: 22px;
+    padding: 10px;
+
+}
+
