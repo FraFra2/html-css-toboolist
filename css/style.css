@@ -12,6 +12,8 @@ header{
 
 }
 
+/* TODO: Style logo */
+
 #logo{
     height: 75px;
     vertical-align: middle;
@@ -30,15 +32,17 @@ body{
 }
 
 main{
-    background-color: white;
     margin: 50px 200px 50px 200px;
 }
 
+/* TODO: Style buttons */
+
 .buttonsection{
+    background-color: white;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     padding: 25px 50px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
 }
 
@@ -59,5 +63,51 @@ main{
 .disabled{
     color: grey;
     background-color: white;
+
+}
+
+/* TODO: Style Task section */
+
+.tasksection{
+    background-color: white;
+    padding: 75px;
+    padding-top: 25px;
+}
+
+.taskdiv{
+    margin-bottom: 25px;
+    line-height: 25px;
+
+}
+
+.task{
+
+}
+
+h2{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* TODO: Style Checkmark / Cross */
+
+.state{
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-weight: bolder;
+}
+
+.done{
+    color: green;
+    border: 1px solid green;
+
+}
+
+.notdone{
+    color: red;
+    border: 1px solid red;
 
 }
