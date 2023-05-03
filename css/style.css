@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+
+}
+
+header{
+    padding: 25px;
+    background-color: white;
+
+}
+
+#logo{
+    height: 75px;
+    vertical-align: middle;
+
+}
+
+header > h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 64px;
+}
+
+body{
+    background-color: #F6F8F9;
+
+}
+
+main{
+    background-color: white;
+
+}
+
+.button{
+
+
+}
+
+.enabled{
+
+}
+
+.disabled{
+
+
+}
