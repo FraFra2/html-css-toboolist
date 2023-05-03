@@ -31,19 +31,33 @@ body{
 
 main{
     background-color: white;
+    margin: 50px 200px 50px 200px;
+}
+
+.buttonsection{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 25px 50px;
+    margin-bottom: 10px;
 
 }
 
 .button{
-
+    border: 1px grey solid;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
 
 }
 
 .enabled{
+    color: white;
+    background-color: #47ADF1;
 
 }
 
 .disabled{
-
+    color: grey;
+    background-color: white;
 
 }
